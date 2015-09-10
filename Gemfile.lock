@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    slugalizer (0.0.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    oktobertest (0.5.3)
+    oktobertest-contrib (0.2.0)
+      oktobertest
+    rake (10.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.6)
+  oktobertest
+  oktobertest-contrib
+  rake
+  slugalizer!
+
+BUNDLED WITH
+   1.10.6
