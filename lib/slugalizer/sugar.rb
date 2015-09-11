@@ -5,3 +5,9 @@ class String
     Slugalizer.to_slug self
   end
 end
+
+class NilClass
+  def to_slug
+    ''
+  end
+end

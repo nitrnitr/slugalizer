@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = ""
   s.authors     = ["Martín Aguilar"]
   s.email       = 'martinaguilar@outlook.com'
-  s.files       = ["lib/slugalizer.rb"]
+  s.files       = ["lib/slugalizer.rb", "lib/slugalizer/sugar.rb"]
   s.homepage    =
     'http://rubygems.org/gems/slugalizer'
   s.license       = 'MIT'
