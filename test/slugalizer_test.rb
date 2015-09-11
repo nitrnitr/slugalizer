@@ -2,6 +2,10 @@ require 'helper'
 
 scope Slugalizer do
   scope '#to_slug' do
+    test 'returns an empty string if the given string is nil' do
+      assert_equal '', Slugalizer.to_slug(nil)
+    end
+
     test 'strips extra whitespaces' do
       assert_equal Slugalizer.to_slug('   a    string with lots of spaces   '), 'a-string-with-lots-of-spaces'
     end
@@ -32,11 +36,6 @@ scope Slugalizer do
 
     test 'preserves alphanumeric characters' do
       assert_equal Slugalizer.to_slug('-- !! This is s0m3 str1ng with numb3rs and letters :)'), 'this-is-s0m3-str1ng-with-numb3rs-and-letters'
-    end
-
-    test 'adds to_slug method to String class' do
-     string = "This is a slugalizable string :) !"
-     assert_equal string.to_slug, 'this-is-a-slugalizable-string'
     end
   end
 end

@@ -1,5 +1,7 @@
 module Slugalizer
   def self.to_slug(string = '')
+    return '' if string.nil?
+
     # strip the string
     ret = string.strip
 
