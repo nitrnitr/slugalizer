@@ -1,4 +1,4 @@
-require_relative '../slugalizer.rb'
+require 'slugalizer'
 
 class String
   def to_slug
