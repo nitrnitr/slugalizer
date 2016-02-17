@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'slugalizer'
-  s.version     = '0.0.5'
+  s.version     = '0.0.5.1'
   s.date        = '2015-09-10'
   s.summary     = "One method slug generator."
   s.description = "Generate slugs for your models with this tiny tiny gem."
