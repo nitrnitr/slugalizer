@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.date        = '2015-09-10'
   s.summary     = "One method slug generator."
   s.description = "Generate slugs for your models with this tiny tiny gem."
-  s.authors     = ["Martín Aguilar"]
+  s.authors     = ["Martin Aguilar"]
   s.email       = 'martinaguilar@outlook.com'
   s.files       = ["lib/slugalizer.rb", "lib/slugalizer/sugar.rb"]
   s.homepage    =
